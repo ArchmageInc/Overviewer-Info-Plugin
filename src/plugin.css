@@ -1,0 +1,239 @@
+.player-location-popup .leaflet-popup-content {
+  margin: 1px 19px;
+}
+
+.player-location-popup .leaflet-popup-content {
+    min-width: 100px
+}
+
+.hearts {
+    width: 100px;
+    height: 12px;
+    background-image: url(../assets/heart_sprites.png);
+}
+.health-0 {
+    background-position-y: 0px;
+}
+.health-1 {
+    background-position-y: -12px;
+}
+.health-2 {
+    background-position-y: -24px;
+}
+.health-3 {
+    background-position-y: -36px;
+}
+.health-4 {
+    background-position-y: -48px;
+}
+.health-5 {
+    background-position-y: -60px;
+}
+.health-6 {
+    background-position-y: -72px;
+}
+.health-7 {
+    background-position-y: -84px;
+}
+.health-8 {
+    background-position-y: -96px;
+}
+.health-9 {
+    background-position-y: -108px;
+}
+.health-10 {
+    background-position-y: -120px;
+}
+.health-11 {
+    background-position-y: -132px;
+}
+.health-12 {
+    background-position-y: -144px;
+}
+.health-13 {
+    background-position-y: -156px;
+}
+.health-14 {
+    background-position-y: -168px;
+}
+.health-15 {
+    background-position-y: -180px;
+}
+.health-16 {
+    background-position-y: -192px;
+}
+.health-17 {
+    background-position-y: -204px;
+}
+.health-18 {
+    background-position-y: -216px;
+}
+.health-19 {
+    background-position-y: -228px;
+}
+.health-20 {
+    background-position-y: -240px;
+}
+
+.food {
+    width: 100px;
+    height: 12px;
+    background-image: url(../assets/food_sprites.png);
+}
+.hunger-0 {
+    background-position-y: 0px;
+}
+.hunger-1 {
+    background-position-y: -12px;
+}
+.hunger-2 {
+    background-position-y: -24px;
+}
+.hunger-3 {
+    background-position-y: -36px;
+}
+.hunger-4 {
+    background-position-y: -48px;
+}
+.hunger-5 {
+    background-position-y: -60px;
+}
+.hunger-6 {
+    background-position-y: -72px;
+}
+.hunger-7 {
+    background-position-y: -84px;
+}
+.hunger-8 {
+    background-position-y: -96px;
+}
+.hunger-9 {
+    background-position-y: -108px;
+}
+.hunger-10 {
+    background-position-y: -120px;
+}
+.hunger-11 {
+    background-position-y: -132px;
+}
+.hunger-12 {
+    background-position-y: -144px;
+}
+.hunger-13 {
+    background-position-y: -156px;
+}
+.hunger-14 {
+    background-position-y: -168px;
+}
+.hunger-15 {
+    background-position-y: -180px;
+}
+.hunger-16 {
+    background-position-y: -192px;
+}
+.hunger-17 {
+    background-position-y: -204px;
+}
+.hunger-18 {
+    background-position-y: -216px;
+}
+.hunger-19 {
+    background-position-y: -228px;
+}
+.hunger-20 {
+    background-position-y: -240px;
+}
+
+.player-location-popup .air, .player-list .air {
+    height: 12px;
+    background-image: url(../assets/air_sprites.png);
+    background-repeat: repeat-x;
+}
+.air-0 {
+    width: 0px;
+}
+.air-1 {
+    width: 10px;
+}
+.air-2 {
+    width: 20px;
+}
+.air-3 {
+    width: 30px;
+}
+.air-4 {
+    width: 40px;
+}
+.air-5 {
+    width: 50px;
+}
+.air-6 {
+    width: 60px;
+}
+.air-7 {
+    width: 70px;
+}
+.air-8 {
+    width: 80px;
+}
+.air-9 {
+    width: 90px;
+}
+.air-10 {
+    width: 100px;
+}
+.clock{
+    width: 32px;
+    height: 32px;
+    background-image: url(../assets/clock_sprites.png);
+}
+.xp {
+    width: 100px;
+    background-image: url(../assets/xp_bar.png);
+    height: 5px;
+    margin: 8px 0px;
+}
+.player-location-popup .xp .level, .player-list .xp .level {
+    position: relative;
+    border-radius: 12px;
+    border: #00AA00 solid;
+    color: #00AA00;
+    font-weight: bold;
+    left: 50%;
+    margin-left: -10%;
+    top: -11px;
+    background-color: #FFF;
+    display: inline-block;
+    padding: 2px;
+    font-size: 10px;
+    min-width: 12px;
+    text-align: center;
+}
+.player-list-container .list-toggle {
+  text-align: right;
+  background-color: #FFF;
+  margin-bottom: -12px;
+  border-radius: 6px 6px 0px 0px;
+  padding: 2px 6px 0px 6px;
+}
+.player-list-container .list-toggle .toggle-button:hover {
+  cursor: pointer;
+}
+ul.player-list {
+    background: #FFF;
+    border-radius: 0px 0px 6px 6px;
+    padding: 4px;
+}
+li.player-info {
+    padding: 4px;
+    border: 1px solid #000;
+    border-radius: 4px;
+    margin: 4px;
+}
+.player-info .player-icon, .player-info .player-card {
+    display: inline-block;
+    padding: 2px;
+}
+.player-icon:hover {
+    cursor: pointer;
+}
