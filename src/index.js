@@ -7,6 +7,7 @@ window.OverviewerInfoPlugin = {
     plugin: null,
     MapUtils: MapUtils,
     start: function(options) {
+        options = options || {};
         if(this.plugin) {
             throw 'OverviewerInfoPlugin already initialized'
         }
