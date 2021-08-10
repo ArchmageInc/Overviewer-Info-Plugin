@@ -21,7 +21,18 @@ const MapUtils = {
             position.z = position.z * 8;
         }
 
-        return overviewer.util.fromWorldToLatLng(position.x, position.y, position.z, MapUtils.getCurrentTitleSet());
+        return L.latLng(overviewer.util.fromWorldToLatLng(position.x, position.y, position.z, MapUtils.getCurrentTitleSet()));
+    },
+    worldNameToDimension: (worldName) => {
+        if ((/nether/i).test(worldName)){
+            return 'minecraft:nether';
+        }
+        if ((/overworld/i).test(worldName)) {
+            return 'minecraft:overworld';
+        }
+        if((/end/i).test(worldName)) {
+            return 'minecraft:the_end';
+        }
     }
 };
 

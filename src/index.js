@@ -15,7 +15,3 @@ window.OverviewerInfoPlugin = {
         return this.plugin;
     }
 };
-
-
-
-OverviewerInfoPlugin.start()

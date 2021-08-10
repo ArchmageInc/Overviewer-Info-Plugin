@@ -2,6 +2,8 @@ const SocketClient = require('./socket-client.js').default;
 const PlayerLocations = require('./player-locations.js').default;
 const PlayerList = require('./player-list.js').default;
 const Clock = require('./clock.js').default;
+const OptionManager = require('./option-manager.js').default;
+const ExclusionManager = require('./exclusion-manager.js').default;
 const _ = require('lodash');
 
 export default class InfoPlugin {
@@ -18,10 +20,14 @@ export default class InfoPlugin {
   playerLocations = null
   playerList = null
   creatureLocations = null
+  optionManager = null
+  exclusionManager = null
 
   constructor(options) {
     this._client = new SocketClient(options);
     this._layer = L.layerGroup();
+    this.optionManager = new OptionManager();
+    this.exclusionManager = new ExclusionManager(this._client, options);
     this.playerLocations = new PlayerLocations(this._client, this._layer, options);
     this.playerList = new PlayerList(this._client, this._layer, this.playerLocations, options);
     this.clock = new Clock(this._client, options);
