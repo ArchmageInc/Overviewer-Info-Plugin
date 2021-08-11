@@ -1,6 +1,6 @@
-import graveImage from '../assets/grave.png';
+import graveImage from '../../assets/grave.png';
 
-const MapUtils = require('./map-utils.js').default;
+const MapUtils = require('../utils/map-utils.js').default;
 
 
 export default class Grave {

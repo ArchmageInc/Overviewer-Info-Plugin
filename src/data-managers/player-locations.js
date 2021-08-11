@@ -1,5 +1,5 @@
 const _ = require('lodash');
-const PlayerMarker = require('./player-marker.js').default;
+const PlayerMarker = require('../players/player-marker.js').default;
 
 export default class PlayerLocations {
     _options = {

@@ -1,4 +1,4 @@
-const MapUtils = require('./map-utils.js').default;
+const MapUtils = require('../utils/map-utils.js').default;
 
 const PlayerMarker = L.Marker.extend({
     _popup: null,

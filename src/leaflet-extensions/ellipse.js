@@ -1,4 +1,4 @@
-const MapUtils = require('./map-utils.js').default;
+const MapUtils = require('../utils/map-utils.js').default;
 
 const Ellipse = L.Circle.extend({
     _latlng: null,
@@ -19,7 +19,7 @@ const Ellipse = L.Circle.extend({
         
     },
     convertBlockRadius: function(radius) {
-        return radius * 0.00828125;
+        return radius * 0.033203125;
     },
     updatePosition: function(position) {
         this._latlng = MapUtils.getDimensionalLocation(position);

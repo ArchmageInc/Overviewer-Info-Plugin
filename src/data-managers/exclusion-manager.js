@@ -1,6 +1,6 @@
 const _ = require('lodash');
-const Ellipse = require('./ellipse.js').default;
-const MapUtils = require('./map-utils.js').default;
+const Ellipse = require('../leaflet-extensions/ellipse.js').default;
+const MapUtils = require('../utils/map-utils.js').default;
 
 export default class ExclusionManager{
     _options = {

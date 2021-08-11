@@ -1,9 +1,9 @@
 const SocketClient = require('./socket-client.js').default;
-const PlayerLocations = require('./player-locations.js').default;
-const PlayerList = require('./player-list.js').default;
-const Clock = require('./clock.js').default;
-const OptionManager = require('./option-manager.js').default;
-const ExclusionManager = require('./exclusion-manager.js').default;
+const PlayerLocations = require('./data-managers/player-locations.js').default;
+const PlayerList = require('./players/player-list.js').default;
+const Clock = require('./leaflet-extensions/clock.js').default;
+const OptionManager = require('./optionals/option-manager.js').default;
+const ExclusionManager = require('./data-managers/exclusion-manager.js').default;
 const _ = require('lodash');
 
 export default class InfoPlugin {

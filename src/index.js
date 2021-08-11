@@ -1,7 +1,7 @@
 import './plugin.css';
 
 const InfoPlugin = require('./info-plugin.js').default;
-const MapUtils = require('./map-utils.js').default;
+const MapUtils = require('./utils/map-utils.js').default;
 
 window.OverviewerInfoPlugin = {
     plugin: null,
